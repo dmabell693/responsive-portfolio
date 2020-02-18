@@ -148,3 +148,19 @@ h3:hover {
         width: 300px;
     }
 }
+
+/* CONTACT SPECIFIC CSS */
+
+form {
+    padding-bottom: 2rem;
+}
+
+#submitButton {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+#submitButton:hover {
+    color: #ffffff;
+    background-color: #4882b8;
+}
