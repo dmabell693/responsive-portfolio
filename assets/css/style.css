@@ -104,6 +104,10 @@ p {
     padding-top: 2rem;
 }
 
+#profilePicCol {
+    padding-left: 0;
+}
+
 #profilePic {
     padding-left: 0;
 }
