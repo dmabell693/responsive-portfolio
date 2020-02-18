@@ -87,7 +87,7 @@ p {
 }
 
 .border-row {
-    padding-bottom: 0;
+    padding-bottom: 1rem;
 }
 
 .top-col {
@@ -109,3 +109,42 @@ p {
 
 /* PORTFOLIO-SPECIFIC CSS */
 
+.col-5 {
+    padding-left: 0;
+}
+
+.portfolio-boxes {
+    width: 300px;
+    height: 250px;
+    background-color: #cccccc;
+    margin: 20px 30px 20px 0;
+    float: left;
+}
+
+.hover-outline:hover {
+    outline: 5px solid #4882b8;
+    outline-offset: 2px;
+    opacity: 50%;
+}
+
+h3 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: medium;
+    padding: 20px 0;
+    position: relative;
+    bottom: 75px;
+}
+
+h3:hover {
+    background-color: #4882b8;
+}
+
+@media screen and (min-width: 993px) {
+    h3 {
+        width: 300px;
+    }
+}
