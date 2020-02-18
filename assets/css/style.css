@@ -38,21 +38,28 @@ footer {
 
 #left-nav {
     border-right: 1px solid #cccccc;
+    padding-right: 24px;
 }
 
 #center-nav {
     border-right: 1px solid #cccccc;
+    padding: 0 24px;
+}
+
+#right-nav {
+    padding-left: 24px;
 }
 
 @media screen and (max-width: 992px) {
-    #left-nav, #center-nav {
+    #left-nav, #center-nav, #right-nav {
         border-right: 0;
+        padding: 0;
     }
 }
 
 @media screen and (min-width: 992px) {
     #right-nav {
-        padding-right: 0;
+        padding-left: 24px;
     }
 }
 
